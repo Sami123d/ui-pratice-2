@@ -1,0 +1,173 @@
+.top-nav{
+    height: 18px !important;
+    padding: 0 2%;
+}
+.nav-color{
+    background-color:  #1c1c1c;
+
+}
+.top-nav-divs{
+    font-size: 12px;
+    color: white;
+}
+
+/* UPPER-NAV-END */
+
+/* BOTTOM-NAV-START */
+#bottom-nav{
+ padding: 0 4% ;
+}
+.bottom-hai{
+    height: 50px;
+    padding: 0;
+    
+    background: url(./images/hero-bg.jpg);
+    
+}
+.navbarNav{
+    height: 60px;
+    
+ 
+}
+.navbar-nav{
+    height: 60px;
+}
+.li-bottom-nav{
+    font-size: 12px;
+}
+.li-bottom-nav:hover{
+   background-color: #1c1c1c;
+   color: white ;
+   padding-bottom: 3px;
+   padding-left: 8px;
+   padding-right: 8px;
+}
+.logo-bottom-nav{
+    font-weight: bold;
+    color: white;
+}
+.logo-bottom-nav:hover{
+    color: white;
+}
+/* navbar complete */
+
+
+
+.about-para{
+    font-size: 14px;
+}
+.para-container{
+ height: 80%;
+ background-color:  #ffffff;
+ width: 109%;
+ padding: 6% 3%;
+
+ margin-left: -70px;
+ box-shadow: 2px 3px 5px  #888888;
+
+
+}
+.btn-about-sec{
+color: #ffffff;
+background-color: #f1db25;
+border-radius: unset;
+
+}
+.btn-about-sec:hover{
+    color: #f1db25;
+    background-color: #ffffff;
+    transition: all 0.3s;
+    border: 1px solid #f1db25;
+}
+.about-hd-span{
+    border-bottom: 5px solid #f1db25;
+    border-radius: 2px;
+}
+
+.row-about{
+    padding: 5%;
+}
+
+/* about-end */
+
+@media screen and (max-width: 600px) {
+    .top-nav-divs{
+        display: none;
+    }
+    .container-about{
+        padding: 0 !important;
+    }
+    .first-col-about{
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+.ul-bottom-nav{
+    margin-top: 34px;
+}
+}
+@media screen and  (max-width: 777px) {
+    .para-container{
+        border: 1px solid white;
+        
+        height: 100%;
+        width: 94%;
+        margin-left: 3%;
+    }
+    .row-about{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 3% 0;
+        margin: 18% 0 !important;
+       
+    }
+    .footer-cont{
+           padding: 0 14%;
+    }
+    .heading-footer{
+        margin-bottom: 5px !important;
+        text-align: center;
+    } 
+    .info-guarder{
+        text-align: center;
+    }
+    .useful-footer{
+        text-align: center;
+    }
+    .heading-footer-contact{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-coll{
+        margin-bottom: 70px !important;
+    }
+    .logos-footer{
+        display: flex;
+        justify-content: center;
+        padding: 2px;
+    }
+    .btn-guards-sec{
+        justify-content: center !important;
+    }
+    .spacing-logos-footer{
+        display: flex;
+        gap: 30px;
+    }
+    .location-contact-sec-footer{
+        text-align: center !important;
+    }
+    .slider-vaal{
+        text-align: center;
+         padding: 29% 24px;;
+    }
+}
+
+@media screen and  (max-width: 999px) {
+    .para-container{
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+} 
