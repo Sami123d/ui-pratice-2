@@ -14,42 +14,24 @@
 
 /* UPPER-NAV-END */
 
-/* BOTTOM-NAV-START */
-#bottom-nav{
- padding: 0 4% ;
+/* Nav Bar Styling */
+
+.bottom-nav {
+    background-color: transparent !important;
 }
-.bottom-hai{
-    height: 50px;
-    padding: 0;
-    z-index: 10;
-    
+
+.bottom-nav * {
+    color: white !important;
 }
-.navbarNav{
-    height: 60px;
-    
- 
+
+.navbar-toggler {
+    color: grey !important;
 }
-.navbar-nav{
-    height: 60px;
+
+.nav-item {
+    display: flex;
+    justify-content: center;
 }
-.li-bottom-nav{
-    font-size: 12px;
-}
-.li-bottom-nav:hover{
-   background-color: #1c1c1c;
-   color: white ;
-   padding-bottom: 3px;
-   padding-left: 8px;
-   padding-right: 8px;
-}
-.logo-bottom-nav{
-    font-weight: bold;
-    color: white;
-}
-.logo-bottom-nav:hover{
-    color: white;
-}
-/* navbar complete */
 
 /* hero-section start */
 
@@ -177,7 +159,6 @@ border-radius: unset;
     background-repeat: no-repeat;
     opacity: 20px rgba(128, 128, 128, 0.397) !important;
     width: 100vw;
-    height: 100vh;
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
