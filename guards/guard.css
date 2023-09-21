@@ -1,77 +1,68 @@
-.top-nav{
-    height: 18px !important;
-    padding: 0 2%;
-}
-.nav-color{
-    background-color:  #1c1c1c;
-
-}
-.top-nav-divs{
-    font-size: 12px;
-    color: white;
-}
-/* ,,, */
-.bottom-nav-li:hover{
-    background-color: #1c1c1c;
-}
-/* UPPER-NAV-END */
-
-/* Nav Bar Styling */
-
-.bottom-nav {
-    background-image: url(../images/hero-bg.jpg);
-}
-
-.bottom-nav * {
-    color: white !important;
-}
-
-.navbar-toggler {
-    color: grey !important;
-}
-
-.nav-item {
-    display: flex;
-    justify-content: center;
-}
-
-
-.about-para{
-    font-size: 14px;
-}
-.para-container{
- height: 80%;
- background-color:  #ffffff;
- width: 109%;
- padding: 6% 3%;
-
- margin-left: -70px;
- box-shadow: 2px 3px 5px  #888888;
-
-
-}
 .btn-about-sec{
-color: #ffffff;
-background-color: #f1db25;
-border-radius: unset;
+    color: #ffffff;
+    background-color: #f1db25;
+    border-radius: unset;
+    
+    }
+    .btn-about-sec:hover{
+        color: #f1db25;
+        background-color: #ffffff;
+        transition: all 0.3s;
+        border: 1px solid #f1db25;
+    }
 
-}
-.btn-about-sec:hover{
-    color: #f1db25;
-    background-color: #ffffff;
-    transition: all 0.3s;
-    border: 1px solid #f1db25;
-}
-.about-hd-span{
-    border-bottom: 5px solid #f1db25;
-    border-radius: 2px;
-}
 
-.row-about{
-    padding: 5%;
-}
+    .top-nav{
+        height: 18px !important;
+        padding: 0 2%;
+    }
+    .nav-color{
+        background-color:  #1c1c1c;
+    
+    }
+    .top-nav-divs{
+        font-size: 12px;
+        color: white;
+    }
+    /* ,,, */
+    .bottom-nav-li:hover{
+        background-color: #1c1c1c;
+    }
+    /* UPPER-NAV-END */
+    
+    /* Nav Bar Styling */
+    
+    .bottom-nav {
+        background-image: url(../images/hero-bg.jpg);
+    }
+    
+    .bottom-nav * {
+        color: white !important;
+    }
+    
+    .navbar-toggler {
+        color: grey !important;
+    }
+    
+    .nav-item {
+        display: flex;
+        justify-content: center;
+    }
 
-/* about-end */
+
+    /* Button span */
+
+    .about-hd-span{
+        border-bottom: 5px solid #f1db25;
+        border-radius: 2px;
+    }
+
+
+
+    #btn-contact-sec{
+        width: 200px;
+    }
+    /* FOOTER */
 
 .spacing-logos-footer{
     display: flex;

@@ -1,4 +1,3 @@
-
 .top-nav{
     height: 18px !important;
     padding: 0 2%;
@@ -20,7 +19,7 @@
 /* Nav Bar Styling */
 
 .bottom-nav {
-    background-color: transparent !important;
+    background-image: url(../images/hero-bg.jpg);
 }
 
 .bottom-nav * {
@@ -36,102 +35,9 @@
     justify-content: center;
 }
 
-/* hero-section start */
-
-.hero-first-sec-with-nav{
-    opacity: 20px gray;
-    background:rgba(0, 0, 0, 0.308)url(./images/hero-bg.jpg);
-    width: 100vw;
-    background-blend-mode: darken;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.para-slider{
-    display: flex;
-    justify-content: center !important;
-    
-    flex-direction: column;
-    align-items: flex-start !important;
-    
-    height: calc(100vh - 20px); /* Background navigation bar ke liye height calculate ki gayi hai */
-     /* Flex container ka background color */
-     margin: 0 8%;
-
-}
-#btn-first-sec-one{
-    background-color: #ffffff;
-    border-radius: inherit !important;
-    margin: 2px;
-    width: 170px;
-    
-}
-
-#btn-first-sec-one:hover{
-color: #ffffff !important;
- background: none;
-    transition: all 0.3s !important;
-    border: 1px solid #ffffff !important;
-}
-#btn-first-sec-two{
-    background-color: #f1db25;
-    color: #ffffff;
-    border-radius: inherit;
-    margin: 2px;
-    width: 170px;
-}
-#btn-first-sec-two:hover{
-    background: none;
-    transition: all 0.1s !important;
-    border: 1px solid #f1db25 !important;
-    cursor: pointer !important;
-
-}
 
 
 
-
-
-
-.about-para{
-    font-size: 14px;
-}
-.para-container{
- height: 80%;
- background-color:  #ffffff;
- width: 109%;
- padding: 6% 3%;
-
- margin-left: -70px;
- box-shadow: 2px 3px 5px  #888888;
-
-
-}
-.btn-about-sec{
-color: #ffffff;
-background-color: #f1db25;
-border-radius: unset;
-
-}
-.btn-about-sec:hover{
-    color: #f1db25;
-    background-color: #ffffff;
-    transition: all 0.3s;
-    border: 1px solid #f1db25;
-}
-.about-hd-span{
-    border-bottom: 5px solid #f1db25;
-    border-radius: 2px;
-}
-
-.row-about{
-    padding: 5%;
-}
-
-/* about-end */
-
-/* cards-sec-start */
 .cards-sec{
     
     background-color: #1c1c1c;
@@ -154,16 +60,35 @@ border-radius: unset;
     background-color: rgba(255, 255, 255, 0.5 ) !important;
 }
 /* CARDS END */
+
+/* BUTTONS AND HOVER BUTTONS CODE */
+.about-hd-span{
+    border-bottom: 5px solid #f1db25;
+    border-radius: 2px;
+}
+.btn-about-sec{
+    color: #ffffff;
+    background-color: #f1db25;
+    border-radius: unset;
+    
+    }
+    .btn-about-sec:hover{
+        color: #f1db25;
+        background-color: #ffffff;
+        transition: all 0.3s;
+        border: 1px solid #f1db25;
+    }
 .carousel-inner{
-    /* width: 170px !important;
-    height: 170px !important; */
+
     margin: 10% 0;
 }
+
+
 
 /* CONTACT-SECTION */
 
 .contact-cilent-sec{
-    background:rgba(0, 0, 0, 0.308)url(./images/contact-bg.jpg);
+    background:rgba(0, 0, 0, 0.308)url(../images/contact-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 20px rgba(128, 128, 128, 0.397) !important;
@@ -181,9 +106,7 @@ border-radius: unset;
 #btn-contact-sec:hover{
     background: none !important;
 }
-
-
-
+/* FOOTER */
 
 .spacing-logos-footer{
     display: flex;
